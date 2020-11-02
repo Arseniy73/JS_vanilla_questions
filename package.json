@@ -1,0 +1,27 @@
+{
+  "name": "js_practice",
+  "version": "1.0.0",
+  "description": "JS app",
+  "main": "app.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode production"
+  },
+  "keywords": [
+    "js",
+    "javascript"
+  ],
+  "author": "Arseniy <transporter777@mail.ru>",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^4.3.0",
+    "html-webpack-plugin": "^4.4.1",
+    "style-loader": "^1.2.1"
+  }
+}
